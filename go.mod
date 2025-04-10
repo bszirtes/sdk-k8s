@@ -1,4 +1,4 @@
-module github.com/networkservicemesh/sdk-k8s
+module github.com/bszirtes/sdk-k8s
 
 go 1.23.0
 
