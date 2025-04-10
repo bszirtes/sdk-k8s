@@ -47,27 +47,27 @@ jobs:
       - name: Create commit
         run: |
           echo "Update go.mod and go.sum to ${{ github.repository }}@${{ needs.get-tag.outputs.tag }}" >> /tmp/commit-message
-      - name: Checkout networkservicemesh/${{ matrix.repository }}
+      - name: Checkout bszirtes/${{ matrix.repository }}
         uses: actions/checkout@v4
         with:
-          path: networkservicemesh/${{ matrix.repository }}
-          repository: networkservicemesh/${{ matrix.repository }}
+          path: bszirtes/${{ matrix.repository }}
+          repository: bszirtes/${{ matrix.repository }}
           token: ${{ secrets.BOT_TOKEN }}
       - uses: actions/setup-go@v5
         with:
           go-version: 1.23.3
       - name: Update ${{ matrix.repository }} locally
-        working-directory: networkservicemesh/${{ matrix.repository }}
+        working-directory: bszirtes/${{ matrix.repository }}
         continue-on-error: true
         run: |
           for dep in github.com/${{ github.repository }} \
                      github.com/bszirtes/sdk-k8s; do
-            GOPRIVATE=github.com/networkservicemesh go get -u $dep@${{ needs.get-tag.outputs.tag }} || true
+            GOPRIVATE=github.com/bszirtes go get -u $dep@${{ needs.get-tag.outputs.tag }} || true
           done
           go mod tidy
           git diff
       - name: Push update to the ${{ matrix.repository }}
-        working-directory: networkservicemesh/${{ matrix.repository }}
+        working-directory: bszirtes/${{ matrix.repository }}
         run: |
           echo Starting to update repositotry ${{ matrix.repository }}
           git config --global user.email "nsmbot@networkservicmesh.io"
