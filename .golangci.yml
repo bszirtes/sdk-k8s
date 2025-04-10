@@ -49,7 +49,7 @@ linters-settings:
       - name: superfluous-else
       - name: unreachable-code
   goimports:
-    local-prefixes: github.com/networkservicemesh/sdk-k8s
+    local-prefixes: github.com/bszirtes/sdk-k8s
   gocyclo:
     min-complexity: 15
   dupl:

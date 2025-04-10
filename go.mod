@@ -11,7 +11,7 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/networkservicemesh/api v1.14.5-0.20250331122810-c41e3fdcf9e1
 	github.com/networkservicemesh/sdk v1.14.4
-	github.com/networkservicemesh/sdk-k8s v1.14.4
+	github.com/bszirtes/sdk-k8s v1.14.4
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.4

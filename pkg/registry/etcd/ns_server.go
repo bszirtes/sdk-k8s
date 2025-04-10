@@ -37,8 +37,8 @@ import (
 	"github.com/networkservicemesh/sdk/pkg/tools/log"
 	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
 
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
+	v1 "github.com/bszirtes/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	"github.com/bszirtes/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
 )
 
 type etcdNSRegistryServer struct {

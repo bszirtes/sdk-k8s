@@ -37,7 +37,7 @@ import (
 	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
 	"github.com/networkservicemesh/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/socketpath"
+	"github.com/bszirtes/sdk-k8s/pkg/tools/socketpath"
 )
 
 const (

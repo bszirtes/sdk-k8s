@@ -45,8 +45,8 @@ import (
 
 	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/registry/etcd"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
+	"github.com/bszirtes/sdk-k8s/pkg/registry/etcd"
+	"github.com/bszirtes/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
 )
 
 // Config contains configuration parameters for registry.Registry based on k8s client

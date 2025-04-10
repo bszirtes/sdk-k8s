@@ -35,7 +35,7 @@ import (
 	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
 	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/networkservice/common/createpod"
+	"github.com/bszirtes/sdk-k8s/pkg/networkservice/common/createpod"
 )
 
 var ignoreKLogDaemon = goleak.IgnoreTopFunction("k8s.io/klog/v2.(*loggingT).flushDaemon")

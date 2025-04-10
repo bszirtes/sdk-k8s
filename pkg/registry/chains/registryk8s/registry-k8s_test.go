@@ -51,9 +51,9 @@ import (
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	core "k8s.io/client-go/testing"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/registry/chains/registryk8s"
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/fake"
+	"github.com/bszirtes/sdk-k8s/pkg/registry/chains/registryk8s"
+	v1 "github.com/bszirtes/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	"github.com/bszirtes/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/fake"
 )
 
 // This is started as a daemon in k8s.io/klog/v2 init()

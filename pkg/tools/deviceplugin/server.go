@@ -35,7 +35,7 @@ import (
 	"github.com/networkservicemesh/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/podresources"
+	"github.com/bszirtes/sdk-k8s/pkg/tools/podresources"
 )
 
 // TokenPool is a token.Pool interface
