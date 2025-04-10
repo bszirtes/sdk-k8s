@@ -165,8 +165,6 @@ github.com/networkservicemesh/api v1.14.5-0.20250331122810-c41e3fdcf9e1 h1:3vfHI
 github.com/networkservicemesh/api v1.14.5-0.20250331122810-c41e3fdcf9e1/go.mod h1:+wUn/OlUyKWLaVoZOsHbiGKe7MPk82CQLGvGyoWULp8=
 github.com/networkservicemesh/sdk v1.14.4 h1:jgx37VvmMYS0vpvJrPYqR20U/9ccnAOADLxbaKlz8rc=
 github.com/networkservicemesh/sdk v1.14.4/go.mod h1:2RfPKM1rOwEN0hCFW81GYKY0h4i11xpnf5Gi5GOwLG8=
-github.com/networkservicemesh/sdk-k8s v1.14.4 h1:fI1UB7SZTn+GRBVwgJ8Bmvzw9i51p76O6P0OvcTVOHU=
-github.com/networkservicemesh/sdk-k8s v1.14.4/go.mod h1:HwCWO+tu5ufh6zxOUXZMHzM/9GPu/20rKAZPyA2ODso=
 github.com/onsi/ginkgo/v2 v2.9.4 h1:xR7vG4IXt5RWx6FfIjyAtsoMAtnc3C/rFXBBd2AjZwE=
 github.com/onsi/ginkgo/v2 v2.9.4/go.mod h1:gCQYp2Q+kSoIj7ykSVb9nskRSsR6PUj4AiLywzIhbKM=
 github.com/onsi/gomega v1.27.6 h1:ENqfyGeS5AX/rlXDd/ETokDz93u0YufY1Pgxuy/PvWE=
