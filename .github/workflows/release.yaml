@@ -39,6 +39,7 @@ jobs:
     strategy:
       matrix:
         repository:
+          - cmd-forwarder-vpp
           - cmd-registry-k8s
     name: Update ${{ matrix.repository }}
     runs-on: ubuntu-latest
